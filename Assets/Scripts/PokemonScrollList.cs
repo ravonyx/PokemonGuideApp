@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using System;
+using System.Collections.Generic;
 
 public static class StringExtensions
 {
@@ -11,90 +12,90 @@ public static class StringExtensions
     }
 }
 
-public class PokemonScrollList : UIList<ScrollCellTest>
+public class PokemonScrollList : MonoBehaviour
 {
 	public PokemonJSONLoader Loader;
-
 	private PanelManager m_PanelManager;
 
 	private bool Initialized;
 
-    public Text namePokemon;
-    public ScrollRect scrollRect;
-    public RectTransform contentPanel;
+    public InputField searchInput;
+    private string nameSearch;
+    public VerticalLayoutGroup grid;
+    [SerializeField]
+    private GameObject cellPrefab;
 
-    public int offsetSearch;
-
-    // Use this for initialization
     public void Launch()
 	{
 		m_PanelManager = GetComponent<PanelManager>();
-		Initialized = false;
-		if (Loader != null)
-			Loader.Load();
-	}
+        nameSearch = "";
+        Initialized = false;
+        if (Loader != null)
+            Loader.Load();
+    }
 	
-	// Update is called once per frame
 	void Update ()
 	{
-		if (!Initialized && Loader != null && Loader.PokemonList != null)
+        if (!Initialized && Loader != null && Loader.PokemonList != null)
 		{
-			CreateList();
-			Initialized = true;
+            int nbCells = Loader.PokemonList.Count;
+            ClearList();
+
+            GameObject cell;
+            Debug.Log(nbCells);
+            for (int i = 0; i < nbCells; i++)
+            {
+                if(nameSearch != "")
+                {
+                    string nameFullPokemon = Loader.PokemonList[i]["name-fr"];
+                    if (nameFullPokemon.Contains(nameSearch, StringComparison.OrdinalIgnoreCase) && nameFullPokemon.IndexOf(nameSearch, StringComparison.OrdinalIgnoreCase) == 0)
+                    {
+                        Debug.Log("name find");
+                        cell = GameObject.Instantiate(cellPrefab) as GameObject;
+                        cell.name = cell.name.Replace("(Clone)", "");
+                        cell.transform.SetParent(grid.transform);
+                        cell.GetComponent<ScrollCellTest>().Init(Loader.PokemonList[i], m_PanelManager);
+                    }
+                }
+                else
+                {
+                    cell = GameObject.Instantiate(cellPrefab) as GameObject;
+                    cell.name = cell.name.Replace("(Clone)", "");
+                    cell.transform.SetParent(grid.transform);
+                    cell.GetComponent<ScrollCellTest>().Init(Loader.PokemonList[i], m_PanelManager);
+                }
+            }
+            Initialized = true;
 		}
 	}
 
-	public void CreateList()
-	{
-		int cells = Loader.PokemonList.Count;
+    void ClearList()
+    {
+        Transform gridT = grid.transform;
 
-		if (cells > 0)
-		{
-			ClearAllCells();
-			Refresh();
-		}
-	}
+        if (grid != null)
+        {
+            for (int i = 0; i < gridT.childCount; i++)
+            {
+                Destroy(grid.transform.GetChild(i).gameObject);
+            }
+        }
+    }
 
 	#region implemented abstract members of UIList
 
-	public override int NumberOfCells()
+	public int NumberOfCells()
 	{
 		if (Loader.PokemonList == null)
 			return 0;
 		return Loader.PokemonList.Count;
 	}
 
-	public override void UpdateCell(int index, ScrollCellTest cell)
-	{
-		cell.Init(Loader.PokemonList[index], m_PanelManager);
-	}
-
     public void Search()
     {
-        string name = namePokemon.text;
-        Debug.Log(name);
-        RectTransform target;
-        for (int i = 0; i < Loader.PokemonList.Count; i++)
-        {
-            string nameFullPokemon = Loader.PokemonList[i]["name-fr"];
-            if (nameFullPokemon.Contains(name, StringComparison.OrdinalIgnoreCase))
-            {
-                Debug.Log(nameFullPokemon);
-                target = cells[i].gameObject.GetComponent<RectTransform>();
-                SnapTo(target);
-                break;
-            }
-        }
-    }
-
-    public void SnapTo(RectTransform target)
-    {
-        Canvas.ForceUpdateCanvases();
-        contentPanel.anchoredPosition = new Vector2(contentPanel.anchoredPosition.x,
-            scrollRect.transform.InverseTransformPoint(contentPanel.position).y
-            - scrollRect.transform.InverseTransformPoint(target.position).y);
-
-        contentPanel.anchoredPosition = new Vector2(contentPanel.anchoredPosition.x, contentPanel.anchoredPosition.y + offsetSearch);
+        nameSearch = searchInput.text;
+        Debug.Log(nameSearch);
+        Initialized = false;
     }
 
     #endregion
