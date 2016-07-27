@@ -8,7 +8,8 @@ public class ScrollCellTest : MonoBehaviour
     public Image image;
 
     public Text cellLabel;
-	public Text foodLabel;
+	public Text typeLabel;
+	public Text attackLabel;
 
     private JSONNode m_PokemonInfos;
 	private PanelManager m_PanelManager;
@@ -21,7 +22,8 @@ public class ScrollCellTest : MonoBehaviour
 		m_PanelManager = panelManager;
         StartCoroutine(LoadPokemonImg(m_PokemonInfos["img"]));
         cellLabel.text = m_PokemonInfos["name-fr"];
-        foodLabel.text = m_PokemonInfos["type"];
+        typeLabel.text = m_PokemonInfos["type"];
+        attackLabel.text = m_PokemonInfos["attack"];
     }
 
 	public void OnButtonClick()

@@ -8,907 +8,1210 @@
 				"id": "#1",
 				"img": "001.png",
 				"name-fr": "Bulbizarre",
-				"type": "Plante / Poison"
+				"type": "Plante / Poison",
+				"life": "none",
+				"attack": "126"
 			}
 			{
 				"id": "#2",
 				"img": "002.png",
 				"name-fr": "Herbizarre",
-				"type": "Plante / Poison"
+				"type": "Plante / Poison",
+				"life": "none",
+				"attack": "156"
 			}
 			{
 				"id": "#3",
 				"img": "003.png",
 				"name-fr": "Florizarre",
-				"type": "Plante / Poison"
+				"type": "Plante / Poison",
+				"life": "none",
+				"attack": "198"
+				
 			}
 			{
 				"id": "#4",
 				"img": "004.png",
 				"name-fr": "Salameche",
-				"type": "Feu"
+				"type": "Feu",
+				"life": "none",
+				"attack": "128"
 			}
 			{
 				"id": "#5",
 				"img": "005.png",
 				"name-fr": "Reptincel",
-				"type": "Feu"
+				"type": "Feu",
+				"life": "none",
+				"attack": "160"
 			}
 			{
 				"id": "#6",
 				"img": "006.png",
 				"name-fr": "Dracaufeu",
-				"type": "Feu / Vol"
+				"type": "Feu / Vol",
+				"life": "none",
+				"attack": "212"
 			}
 			{
 				"id": "#7",
 				"img": "007.png",
 				"name-fr": "Carapuce",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "112"
 			}
 			{
 				"id": "#8",
 				"img": "008.png",
 				"name-fr": "Carabaffe",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "144"
 			}
 			{
 				"id": "#9",
 				"img": "009.png",
 				"name-fr": "Tortank",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "186"
 			}
 			{
 				"id": "#10",
 				"img": "010.png",
 				"name-fr": "Chenipan",
-				"type": "Insecte"
+				"type": "Insecte",
+				"life": "none",
+				"attack": "62"
 			}
 			{
 				"id": "#11",
 				"img": "011.png",
 				"name-fr": "Chrysacier",
-				"type": "Insecte"
+				"type": "Insecte",
+				"life": "none",
+				"attack": "56"
 			}
 			{
 				"id": "#12",
 				"img": "012.png",
 				"name-fr": "Papilusion",
-				"type": "Insecte / Vol"
+				"type": "Insecte / Vol",
+				"life": "none",
+				"attack": "144"
 			}
 			{
 				"id": "#13",
 				"img": "013.png",
 				"name-fr": "Aspicot",
-				"type": "Insecte / Poison"
+				"type": "Insecte / Poison",
+				"life": "none",
+				"attack": "68"
 			}
 			{
 				"id": "#14",
 				"img": "014.png",
 				"name-fr": "Coconfort",
-				"type": "Insecte / Poison"
+				"type": "Insecte / Poison",
+				"life": "none",
+				"attack": "62"
 			}
 			{
 				"id": "#15",
 				"img": "015.png",
 				"name-fr": "Dardargnan",
-				"type": "Insecte / Poison"
+				"type": "Insecte / Poison",
+				"life": "none",
+				"attack": "144"
 			}
 			{
 				"id": "#16",
 				"img": "016.png",
 				"name-fr": "Roucool",
-				"type": "Normal / Vol"
+				"type": "Normal / Vol",
+				"life": "none",
+				"attack": "94"
 			}
 			{
 				"id": "#17",
 				"img": "017.png",
 				"name-fr": "Roucoups",
-				"type": "Normal / Vol"
+				"type": "Normal / Vol",
+				"life": "none",
+				"attack": "126"
 			}
 			{
 				"id": "#18",
 				"img": "018.png",
 				"name-fr": "Roucarnage",
-				"type": "Normal / Vol"
+				"type": "Normal / Vol",
+				"life": "none",
+				"attack": "170"
 			}
 			{
 				"id": "#19",
 				"img": "019.png",
 				"name-fr": "Rattata",
-				"type": "Normal"
+				"type": "Normal",
+				"life": "none",
+				"attack": "92"
 			}
 			{
 				"id": "#20",
 				"img": "020.png",
 				"name-fr": "Rattatac",
-				"type": "Normal"
+				"type": "Normal",
+				"life": "none",
+				"attack": "146"
 			}
 			{
 				"id": "#21",
 				"img": "021.png",
 				"name-fr": "Piafabec",
-				"type": "Normal / Vol"
+				"type": "Normal / Vol",
+				"life": "none",
+				"attack": "102"
 			}
 			{
 				"id": "#22",
 				"img": "022.png",
 				"name-fr": "Rapasdepic",
-				"type": "Normal / Vol"
+				"type": "Normal / Vol",
+				"life": "none",
+				"attack": "168"
 			}
 			{
 				"id": "#23",
 				"img": "023.png",
 				"name-fr": "Abo",
-				"type": "Poison"
+				"type": "Poison",
+				"life": "none",
+				"attack": "112"
 			}
 			{
 				"id": "#24",
 				"img": "024.png",
 				"name-fr": "Arbok",
-				"type": "Poison"
+				"type": "Poison",
+				"life": "none",
+				"attack": "166"
 			}
 			{
 				"id": "#25",
 				"img": "025.png",
 				"name-fr": "Pikachu",
-				"type": "Electrik"
+				"type": "Electrik",
+				"life": "none",
+				"attack": "124"
 			}
 			{
 				"id": "#26",
 				"img": "026.png",
 				"name-fr": "Raichu",
-				"type": "Electrik"
+				"type": "Electrik",
+				"life": "none",
+				"attack": "200"
 			}
 			{
 				"id": "#27",
 				"img": "027.png",
 				"name-fr": "Sabelette",
-				"type": "Sol"
+				"type": "Sol",
+				"life": "none",
+				"attack": "90"
 			}
 			{
 				"id": "#28",
 				"img": "028.png",
 				"name-fr": "Sablaireau",
-				"type": "Sol"
+				"type": "Sol",
+				"life": "none",
+				"attack": "150"
 			}
 			{
 				"id": "#29",
 				"img": "029.png",
 				"name-fr": "Nidoran F",
-				"type": "Poison"
+				"type": "Poison",
+				"life": "none",
+				"attack": "100"
 			}
 			{
 				"id": "#30",
 				"img": "030.png",
 				"name-fr": "Nidorina",
-				"type": "Poison"
+				"type": "Poison",
+				"life": "none",
+				"attack": "132"
 			}
 			{
 				"id": "#31",
 				"img": "031.png",
 				"name-fr": "Nidoqueen",
-				"type": "Poison / Sol"
+				"type": "Poison / Sol",
+				"life": "none",
+				"attack": "184"
 			}
 			{
 				"id": "#32",
 				"img": "032.png",
 				"name-fr": "Nidoran M",
-				"type": "Poison"
+				"type": "Poison",
+				"life": "none",
+				"attack": "110"
 			}
 			{
 				"id": "#33",
 				"img": "033.png",
 				"name-fr": "Nidorino",
-				"type": "Poison"
+				"type": "Poison",
+				"life": "none",
+				"attack": "142"
 			}
 			{
 				"id": "#34",
 				"img": "034.png",
 				"name-fr": "Nidoking",
-				"type": "Poison / Sol"
+				"type": "Poison / Sol",
+				"life": "none",
+				"attack": "204"
 			}
 			{
 				"id": "#35",
 				"img": "035.png",
 				"name-fr": "Melofee",
-				"type": "Fee"
+				"type": "Fee",
+				"life": "none",
+				"attack": "116"
 			}
 			{
 				"id": "#36",
 				"img": "036.png",
 				"name-fr": "Melodelfe",
-				"type": "Fee"
+				"type": "Fee",
+				"life": "none",
+				"attack": "178"
 			}
 			{
 				"id": "#37",
 				"img": "037.png",
 				"name-fr": "Goupix",
-				"type": "Feu"
+				"type": "Feu",
+				"life": "none",
+				"attack": "106"
 			}
 			{
 				"id": "#38",
 				"img": "038.png",
 				"name-fr": "Feunard",
-				"type": "Feu"
+				"type": "Feu",
+				"life": "none",
+				"attack": "176"
 			}
 			{
 				"id": "#39",
 				"img": "039.png",
 				"name-fr": "Rondoudou",
-				"type": "Normal / Fee"
+				"type": "Normal / Fee",
+				"life": "none",
+				"attack": "98"
 			}
 			{
 				"id": "#40",
 				"img": "040.png",
 				"name-fr": "Grodoudou",
-				"type": "Normal / Fee"
+				"type": "Normal / Fee",
+				"life": "none",
+				"attack": "168"
 			}
 			{
 				"id": "#41",
 				"img": "041.png",
 				"name-fr": "Nosferapti",
-				"type": "Poison / Vol"
+				"type": "Poison / Vol",
+				"life": "none",
+				"attack": "88"
 			}
 			{
 				"id": "#42",
 				"img": "042.png",
 				"name-fr": "Nosferalto",
-				"type": "Poison / Vol"
+				"type": "Poison / Vol",
+				"life": "none",
+				"attack": "164"
 			}
 			{
 				"id": "#43",
 				"img": "043.png",
 				"name-fr": "Mystherbe",
-				"type": "Plante / Poison"
+				"type": "Plante / Poison",
+				"life": "none",
+				"attack": "134"
 			}
 			{
 				"id": "#44",
 				"img": "044.png",
 				"name-fr": "Ortide",
-				"type": "Plante / Poison"
+				"type": "Plante / Poison",
+				"life": "none",
+				"attack": "162"
 			}
 			{
 				"id": "#45",
 				"img": "045.png",
 				"name-fr": "Rafflesia",
-				"type": "Plante / Poison"
+				"type": "Plante / Poison",
+				"life": "none",
+				"attack": "202"
 			}
 			{
 				"id": "#46",
 				"img": "046.png",
 				"name-fr": "Paras",
-				"type": "Insecte / Plante"
+				"type": "Insecte / Plante",
+				"life": "none",
+				"attack": "122"
 			}
 			{
 				"id": "#47",
 				"img": "047.png",
 				"name-fr": "Parasect",
-				"type": "Insecte / Plante"
+				"type": "Insecte / Plante",
+				"life": "none",
+				"attack": "162"
 			}
 			{
 				"id": "#48",
 				"img": "048.png",
 				"name-fr": "Mimitoss",
-				"type": "Insecte / Poison"
+				"type": "Insecte / Poison",
+				"life": "none",
+				"attack": "108"
 			}
 			{
 				"id": "#49",
 				"img": "049.png",
 				"name-fr": "Aeromite",
-				"type": "Insecte / Poison"
+				"type": "Insecte / Poison",
+				"life": "none",
+				"attack": "172"
 			}
 			{
 				"id": "#50",
 				"img": "050.png",
 				"name-fr": "Taupiqueur",
-				"type": "Sol"
+				"life": "none",
+				"type": "Sol",
+				"attack": "108"
 			}
 			{
 				"id": "#51",
 				"img": "051.png",
 				"name-fr": "Triopikeur",
-				"type": "Sol"
+				"life": "none",
+				"type": "Sol",
+				"attack": "148"
 			}
 			{
 				"id": "#52",
 				"img": "052.png",
 				"name-fr": "Miaouss",
-				"type": "Normal"
+				"type": "Normal",
+				"life": "none",
+				"attack": "104"
 			}
 			{
 				"id": "#53",
 				"img": "053.png",
 				"name-fr": "Persian",
-				"type": "Normal"
+				"type": "Normal",
+				"life": "none",
+				"attack": "156"
 			}
 			{
 				"id": "#54",
 				"img": "054.png",
 				"name-fr": "Psykokwak",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "132"
 			}
 			{
 				"id": "#55",
 				"img": "055.png",
 				"name-fr": "Akwakwak",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "194"
 			}
 			{
 				"id": "#56",
 				"img": "056.png",
 				"name-fr": "Ferosinge",
-				"type": "Combat"
+				"type": "Combat",
+				"life": "none",
+				"attack": "122"
 			}
 			{
 				"id": "#57",
 				"img": "057.png",
 				"name-fr": "Colossinge",
-				"type": "Combat"
+				"type": "Combat",
+				"life": "none",
+				"attack": "178"
 			}
 			{
 				"id": "#58",
 				"img": "058.png",
 				"name-fr": "Caninos",
-				"type": "Feu"
+				"type": "Feu",
+				"life": "none",
+				"attack": "156"
 			}
 			{
 				"id": "#59",
 				"img": "059.png",
 				"name-fr": "Arcanin",
-				"type": "Feu"
+				"type": "Feu",
+				"life": "none",
+				"attack": "230"
 			}
 			{
 				"id": "#60",
 				"img": "060.png",
 				"name-fr": "Ptitard",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "108"
 			}
 			{
 				"id": "#61",
 				"img": "061.png",
 				"name-fr": "Tetarte",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "132"
 			}
 			{
 				"id": "#62",
 				"img": "062.png",
 				"name-fr": "Tartard",
-				"type": "Eau / Combat"
+				"type": "Eau / Combat",
+				"life": "none",
+				"attack": "180"
 			}
 			{
 				"id": "#63",
 				"img": "063.png",
 				"name-fr": "Abra",
-				"type": "Psy"
+				"type": "Psy",
+				"life": "none",
+				"attack": "110"
 			}
 			{
 				"id": "#64",
 				"img": "064.png",
 				"name-fr": "Kadabra",
-				"type": "Psy"
+				"type": "Psy",
+				"life": "none",
+				"attack": "150"
 			}
 			{
 				"id": "#65",
 				"img": "065.png",
 				"name-fr": "Alakazam",
-				"type": "Psy"
+				"type": "Psy",
+				"life": "none",
+				"attack": "186"
 			}
 			{
 				"id": "#66",
 				"img": "066.png",
 				"name-fr": "Machoc",
-				"type": "Combat"
+				"type": "Combat",
+				"life": "none",
+				"attack": "118"
 			}
 			{
 				"id": "#67",
 				"img": "067.png",
 				"name-fr": "Machopeur",
-				"type": "Combat"
+				"type": "Combat",
+				"life": "none",
+				"attack": "154"
 			}
 			{
 				"id": "#68",
 				"img": "068.png",
 				"name-fr": "Mackogneur",
-				"type": "Combat"
+				"type": "Combat",
+				"life": "none",
+				"attack": "198"
 			}
 			{
 				"id": "#69",
 				"img": "069.png",
 				"name-fr": "Chetiflor",
-				"type": "Plante / Poison"
+				"type": "Plante / Poison",
+				"life": "none",
+				"attack": "158"
 			}
 			{
 				"id": "#70",
 				"img": "070.png",
 				"name-fr": "Boustiflor",
-				"type": "Plante / Poison"
+				"type": "Plante / Poison",
+				"life": "none",
+				"attack": "190"
 			}
 			{
 				"id": "#71",
 				"img": "071.png",
 				"name-fr": "Empiflor",
-				"type": "Plante / Poison"
+				"type": "Plante / Poison",
+				"life": "none",
+				"attack": "222"
 			}
 			{
 				"id": "#72",
 				"img": "072.png",
 				"name-fr": "Tentacool",
-				"type": "Eau / Poison"
+				"type": "Eau / Poison",
+				"life": "none",
+				"attack": "106"
 			}
 			{
 				"id": "#73",
 				"img": "073.png",
 				"name-fr": "Tentacruel",
-				"type": "Eau / Poison"
+				"type": "Eau / Poison",
+				"life": "none",
+				"attack": "170"
 			}
 			{
 				"id": "#74",
 				"img": "074.png",
 				"name-fr": "Racaillou",
-				"type": "Roche / Sol"
+				"type": "Roche / Sol",
+				"life": "none",
+				"attack": "106"
 			}
 			{
 				"id": "#75",
 				"img": "075.png",
 				"name-fr": "Gravalanch",
-				"type": "Roche / Sol"
+				"type": "Roche / Sol",
+				"life": "none",
+				"attack": "142"
 			}
 			{
 				"id": "#76",
 				"img": "076.png",
 				"name-fr": "Grolem",
-				"type": "Roche / Sol"
+				"type": "Roche / Sol",
+				"life": "none",
+				"attack": "176"
 			}
 			{
 				"id": "#77",
 				"img": "077.png",
 				"name-fr": "Ponyta",
-				"type": "Feu"
+				"type": "Feu",
+				"life": "none",
+				"attack": "168"
 			}
 			{
 				"id": "#78",
 				"img": "078.png",
 				"name-fr": "Galopa",
-				"type": "Feu"
+				"type": "Feu",
+				"life": "none",
+				"attack": "200"
 			}
 			{
 				"id": "#79",
 				"img": "079.png",
 				"name-fr": "Ramoloss",
-				"type": "Eau / Psy"
+				"type": "Eau / Psy",
+				"life": "none",
+				"attack": "110"
 			}
 			{
 				"id": "#80",
 				"img": "080.png",
 				"name-fr": "Flagadoss",
-				"type": "Eau / Psy"
+				"type": "Eau / Psy",
+				"life": "none",
+				"attack": "184"
 			}
 			{
 				"id": "#81",
 				"img": "081.png",
 				"name-fr": "Magneti",
-				"type": "Electrik / Acier"
+				"type": "Electrik / Acier",
+				"life": "none",
+				"attack": "128"
 			}
 			{
 				"id": "#82",
 				"img": "082.png",
 				"name-fr": "Magneton",
-				"type": "Electrik / Acier"
+				"type": "Electrik / Acier",
+				"life": "none",
+				"attack": "186"
 			}
 			{
 				"id": "#83",
 				"img": "083.png",
 				"name-fr": "Canarticho",
-				"type": "Normal / Vol"
+				"type": "Normal / Vol",
+				"life": "none",
+				"attack": "138"
 			}
 			{
 				"id": "#84",
 				"img": "084.png",
 				"name-fr": "Doduo",
-				"type": "Normal / Vol"
+				"type": "Normal / Vol",
+				"life": "none",
+				"attack": "126"
 			}
 			{
 				"id": "#85",
 				"img": "085.png",
 				"name-fr": "Dodrio",
-				"type": "Normal / Vol"
+				"type": "Normal / Vol",
+				"life": "none",
+				"attack": "182"
 			}
 			{
 				"id": "#86",
 				"img": "086.png",
 				"name-fr": "Otaria",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "104"
 			}
 			{
 				"id": "#87",
 				"img": "087.png",
 				"name-fr": "Lamantine",
-				"type": "Eau / Glace"
+				"type": "Eau / Glace",
+				"life": "none",
+				"attack": "156"
 			}
 			{
 				"id": "#88",
 				"img": "088.png",
 				"name-fr": "Tadmorv",
-				"type": "Poison"
+				"type": "Poison",
+				"life": "none",
+				"attack": "124"
 			}
 			{
 				"id": "#89",
 				"img": "089.png",
 				"name-fr": "Grotadmorv",
-				"type": "Poison"
+				"type": "Poison",
+				"life": "none",
+				"attack": "180"
 			}
 			{
 				"id": "#90",
 				"img": "90.png",
 				"name-fr": "Kokiyas",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "120"
 			}
 			{
 				"id": "#91",
 				"img": "091.png",
 				"name-fr": "Crustabri",
-				"type": "Eau / Glace"
+				"type": "Eau / Glace",
+				"life": "none",
+				"attack": "196"
 			}
 			{
 				"id": "#92",
 				"img": "092.png",
 				"name-fr": "Fantominus",
-				"type": "Spectre / Poison"
+				"type": "Spectre / Poison",
+				"life": "none",
+				"attack": "136"
 			}
 			{
 				"id": "#93",
 				"img": "093.png",
 				"name-fr": "Spectrum",
-				"type": "Spectre / Poison"
+				"type": "Spectre / Poison",
+				"life": "none",
+				"attack": "172"
 			}
 			{
 				"id": "#94",
 				"img": "094.png",
 				"name-fr": "Ectoplasma",
-				"type": "Spectre / Poison"
+				"type": "Spectre / Poison",
+				"life": "none",
+				"attack": "204"
 			}
 			{
 				"id": "#95",
 				"img": "095.png",
 				"name-fr": "Onix",
-				"type": "Roche / Sol"
+				"type": "Roche / Sol",
+				"life": "none",
+				"attack": "90"
 			}
 			{
 				"id": "#96",
 				"img": "096.png",
 				"name-fr": "Soporifik",
-				"type": "Psy"
+				"type": "Psy",
+				"life": "none",
+				"attack": "104"
 			}
 			{
 				"id": "#97",
 				"img": "097.png",
 				"name-fr": "Hypnomade",
-				"type": "Psy"
+				"type": "Psy",
+				"life": "none",
+				"attack": "162"
 			}
 			{
 				"id": "#98",
 				"img": "098.png",
 				"name-fr": "Krabby",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "116"
 			}
 			{
 				"id": "#99",
 				"img": "099.png",
 				"name-fr": "Krabboss",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "178"
 			}
 			{
 				"id": "#100",
 				"img": "100.png",
 				"name-fr": "Voltorbe",
-				"type": "Electrik"
+				"type": "Electrik",
+				"life": "none",
+				"attack": "102"
 			}
 			{
 				"id": "#101",
 				"img": "101.png",
 				"name-fr": "Electrode",
-				"type": "Electrik"
+				"type": "Electrik",
+				"life": "none",
+				"attack": "150"
 			}
 			{
 				"id": "#102",
 				"img": "102.png",
 				"name-fr": "Noeunoeuf",
-				"type": "Plante / Psy"
+				"type": "Plante / Psy",
+				"life": "none",
+				"attack": "110"
 			}
 			{
 				"id": "#103",
 				"img": "103.png",
 				"name-fr": "Noadkoko",
-				"type": "Plante / Psy"
+				"type": "Plante / Psy",
+				"life": "none",
+				"attack": "232"
 			}
 			{
 				"id": "#104",
 				"img": "104.png",
 				"name-fr": "Osselait",
-				"type": "Sol"
+				"life": "none",
+				"type": "Sol",
+				"attack": "102"
 			}
 			{
 				"id": "#105",
 				"img": "105.png",
 				"name-fr": "Ossatueur",
-				"type": "Sol"
+				"type": "Sol",
+				"life": "none",
+				"attack": "140"
 			}
 			{
 				"id": "#106",
 				"img": "106.png",
 				"name-fr": "Kicklee",
-				"type": "Combat"
+				"type": "Combat",
+				"life": "none",
+				"attack": "148"
 			}
 			{
 				"id": "#107",
 				"img": "107.png",
 				"name-fr": "Tygnon",
-				"type": "Combat"
+				"type": "Combat",
+				"life": "none",
+				"attack": "138"
 			}
 			{
 				"id": "#108",
 				"img": "108.png",
 				"name-fr": "Excelangue",
-				"type": "Normal"
+				"type": "Normal",
+				"life": "none",
+				"attack": "126"
 			}
 			{
 				"id": "#109",
 				"img": "109.png",
 				"name-fr": "Smogo",
-				"type": "Poison"
+				"type": "Poison",
+				"life": "none",
+				"attack": "136"
 			}
 			{
 				"id": "#110",
 				"img": "110.png",
 				"name-fr": "Smogogo",
-				"type": "Poison"
+				"type": "Poison",
+				"life": "none",
+				"attack": "190"
 			}
 			{
 				"id": "#111",
 				"img": "111.png",
 				"name-fr": "Rhinocorne",
-				"type": "Sol / Roche"
+				"type": "Sol / Roche",
+				"life": "none",
+				"attack": "110"
 			}
 			{
 				"id": "#112",
 				"img": "112.png",
 				"name-fr": "Rhinoferos",
-				"type": "Sol / Roche"
+				"type": "Sol / Roche",
+				"life": "none",
+				"attack": "166"
 			}
 			{
 				"id": "#113",
 				"img": "113.png",
 				"name-fr": "Leveinard",
-				"type": "Normal"
+				"type": "Normal",
+				"life": "none",
+				"attack": "40"
 			}
 			{
 				"id": "#114",
 				"img": "114.png",
 				"name-fr": "Saquedeneu",
-				"type": "Plante"
+				"type": "Plante",
+				"life": "none",
+				"attack": "164"
 			}
 			{
 				"id": "#115",
 				"img": "115.png",
 				"name-fr": "Kangourex",
-				"type": "Normal"
+				"type": "Normal",
+				"life": "none",
+				"attack": "142"
 			}
 			{
 				"id": "#116",
 				"img": "116.png",
 				"name-fr": "Hypotrempe",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "122"
 			}
 			{
 				"id": "#117",
 				"img": "117.png",
 				"name-fr": "Hypocean",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "176"
 			}
 			{
 				"id": "#118",
 				"img": "118.png",
 				"name-fr": "Poissirene",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "112"
 			}
 			{
 				"id": "#119",
 				"img": "119.png",
 				"name-fr": "Poissoroy",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "172"
 			}
 			{
 				"id": "#120",
 				"img": "120.png",
 				"name-fr": "Stari",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "130"
 			}
 			{
 				"id": "#121",
 				"img": "121.png",
 				"name-fr": "Staross",
-				"type": "Eau / Psy"
+				"type": "Eau / Psy",
+				"life": "none",
+				"attack": "194"
 			}
 			{
 				"id": "#122",
 				"img": "122.png",
 				"name-fr": "Mr.Mime",
-				"type": "Psy / Fee"
+				"type": "Psy / Fee",
+				"life": "none",
+				"attack": "154"
 			}
 			{
 				"id": "#123",
 				"img": "123.png",
 				"name-fr": "Insecateur",
-				"type": "Insecte / Vol"
+				"type": "Insecte / Vol",
+				"life": "none",
+				"attack": "176"
 			}
 			{
 				"id": "#124",
 				"img": "124.png",
 				"name-fr": "Lippoutou",
-				"type": "Glace / Psy"
+				"type": "Glace / Psy",
+				"life": "none",
+				"attack": "172"
 			}
 			{
 				"id": "#125",
 				"img": "125.png",
 				"name-fr": "Elektek",
-				"type": "Electrik"
+				"type": "Electrik",
+				"life": "none",
+				"attack": "198"
 			}
 			{
 				"id": "#126",
 				"img": "126.png",
 				"name-fr": "Magmar",
-				"type": "Feu"
+				"type": "Feu",
+				"life": "none",
+				"attack": "214"
 			}
 			{
 				"id": "#127",
 				"img": "127.png",
 				"name-fr": "Scarabrute",
-				"type": "Insecte"
+				"type": "Insecte",
+				"life": "none",
+				"attack": "184"
 			}
 			{
 				"id": "#128",
 				"img": "128.png",
 				"name-fr": "Tauros",
-				"type": "Normal"
+				"type": "Normal",
+				"life": "none",
+				"attack": "148"
 			}
 			{
 				"id": "#129",
 				"img": "129.png",
 				"name-fr": "Magicarpe",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "42"
 			}
 			{
 				"id": "#130",
 				"img": "130.png",
 				"name-fr": "Leviator",
-				"type": "Eau / Vol"
+				"type": "Eau / Vol",
+				"life": "none",
+				"attack": "192"
 			}
 			{
 				"id": "#131",
 				"img": "131.png",
 				"name-fr": "Lokhlass",
-				"type": "Eau / Glace"
+				"type": "Eau / Glace",
+				"life": "none",
+				"attack": "186"
 			}
 			{
 				"id": "#132",
 				"img": "132.png",
 				"name-fr": "Metamorph",
-				"type": "Normal"
+				"type": "Normal",
+				"life": "none",
+				"attack": "110"
 			}
 			{
 				"id": "#133",
 				"img": "133.png",
 				"name-fr": "Evoli",
-				"type": "Normal"
+				"type": "Normal",
+				"life": "none",
+				"attack": "114"
 			}
 			{
 				"id": "#134",
 				"img": "134.png",
 				"name-fr": "Aquali",
-				"type": "Eau"
+				"type": "Eau",
+				"life": "none",
+				"attack": "186"
 			}
 			{
 				"id": "#135",
 				"img": "135.png",
 				"name-fr": "Voltali",
-				"type": "Electrik"
+				"type": "Electrik",
+				"life": "none",
+				"attack": "192"
 			}
 			{
 				"id": "#136",
 				"img": "136.png",
 				"name-fr": "Pyroli",
-				"type": "Feu"
+				"type": "Feu",
+				"life": "none",
+				"attack": "238"
 			}
 			{
 				"id": "#137",
 				"img": "137.png",
 				"name-fr": "Porygon",
-				"type": "Normal"
+				"type": "Normal",
+				"life": "none",
+				"attack": "156"
 			}
 			{
 				"id": "#138",
 				"img": "138.png",
 				"name-fr": "Amonita",
-				"type": "Roche / Eau"
+				"type": "Roche / Eau",
+				"life": "none",
+				"attack": "132"
 			}
 			{
 				"id": "#139",
 				"img": "139.png",
 				"name-fr": "Amonistar",
-				"type": "Roche / Eau"
+				"type": "Roche / Eau",
+				"life": "none",
+				"attack": "180"
 			}
 			{
 				"id": "#140",
 				"img": "140.png",
 				"name-fr": "Kabuto",
-				"type": "Roche / Eau"
+				"type": "Roche / Eau",
+				"life": "none",
+				"attack": "148"
 			}
 			{
 				"id": "#141",
 				"img": "141.png",
 				"name-fr": "Kabutops",
-				"type": "Roche / Eau"
+				"type": "Roche / Eau",
+				"life": "none",
+				"attack": "190"
 			}
 			{
 				"id": "#142",
 				"img": "142.png",
 				"name-fr": "Ptera",
-				"type": "Roche / Vol"
+				"type": "Roche / Vol",
+				"life": "none",
+				"attack": "182"
 			}
 			{
 				"id": "#143",
 				"img": "143.png",
 				"name-fr": "Ronflex",
-				"type": "Normal"
+				"type": "Normal",
+				"life": "none",
+				"attack": "180"
 			}
 			{
 				"id": "#144",
 				"img": "144.png",
 				"name-fr": "Artikodin",
-				"type": "Glace / Vol"
+				"type": "Glace / Vol",
+				"life": "none",
+				"attack": "198"
 			}
 			{
 				"id": "#145",
 				"img": "145.png",
 				"name-fr": "Electhor",
-				"type": "Electrik / Vol"
+				"type": "Electrik / Vol",
+				"life": "none",
+				"attack": "232"
 			}
 			{
 				"id": "#146",
 				"img": "146.png",
 				"name-fr": "Sulfura",
-				"type": "Feu / Vol"
+				"type": "Feu / Vol",
+				"life": "none",
+				"attack": "242"
 			}
 			{
 				"id": "#147",
 				"img": "147.png",
 				"name-fr": "Minidraco",
-				"type": "Dragon"
+				"type": "Dragon",
+				"life": "none",
+				"attack": "128"
 			}
 			{
 				"id": "#148",
 				"img": "148.png",
 				"name-fr": "Draco",
-				"type": "Dragon"
+				"type": "Dragon",
+				"life": "none",
+				"attack": "170"
 			}
 			{
 				"id": "#149",
 				"img": "149.png",
 				"name-fr": "Dracolosse",
-				"type": "Dragon / Vol"
+				"type": "Dragon / Vol",
+				"life": "none",
+				"attack": "250"
 			}
 			{
 				"id": "#150",
 				"img": "150.png",
 				"name-fr": "Mewtwo",
-				"type": "Psy"
+				"type": "Psy",
+				"life": "none",
+				"attack": "284"
 			}
 			{
 				"id": "#151",
 				"img": "151.png",
 				"name-fr": "Mew",
-				"type": "Psy"
+				"type": "Psy",
+				"life": "none",
+				"attack": "220"
 			}
 		]
 	}
