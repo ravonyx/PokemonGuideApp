@@ -9,6 +9,9 @@ public class PokemonJSONLoader : MonoBehaviour
 
 	public JSONNode PokemonList;
 
+	public delegate void PkmnLoaded();
+	public PkmnLoaded PkmnLoadedHandler = null;
+
 	void Start()
 	{
 		PokemonList = null;
@@ -39,5 +42,7 @@ public class PokemonJSONLoader : MonoBehaviour
 	{
 		var N = JSON.Parse(data);
 		PokemonList = N["data"]["pokemonList"];
+		if (PkmnLoadedHandler != null)
+			PkmnLoadedHandler();
 	}
 }
