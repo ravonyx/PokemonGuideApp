@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
     public GameObject startPanel;
     public GameObject listPokemonPanel;
     public GameObject typesPanel;
+    public GameObject eggsPanel;
 
     void Start()
     {
@@ -26,6 +27,11 @@ public class UIManager : MonoBehaviour
         startPanel.SetActive(false);
         typesPanel.SetActive(true);
     }
+    public void ClickEggs()
+    {
+        startPanel.SetActive(false);
+        eggsPanel.SetActive(true);
+    }
 
     void Update()
     {
@@ -41,6 +47,11 @@ public class UIManager : MonoBehaviour
             {
                 startPanel.SetActive(true);
                 typesPanel.SetActive(false);
+            }
+            if (eggsPanel.activeSelf == true)
+            {
+                startPanel.SetActive(true);
+                eggsPanel.SetActive(false);
             }
             return;
         }
