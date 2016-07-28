@@ -85,10 +85,10 @@ public class PokemonScrollList : MonoBehaviour
 
 	#region implemented abstract members of UIList
 
-    public void Sort()
+    public void Sort(string typeSort)
     {
         sortAsc = !sortAsc;
-        Quicksort(Loader.PokemonList, 0, Loader.PokemonList.Count - 1, "attack", sortAsc);
+        Quicksort(Loader.PokemonList, 0, Loader.PokemonList.Count - 1, typeSort, sortAsc);
         Initialized = false;
     }
 

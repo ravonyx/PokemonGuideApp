@@ -9,24 +9,30 @@
 				"img": "001.png",
 				"name-fr": "Bulbizarre",
 				"type": "Plante / Poison",
-				"life": "none",
-				"attack": "126"
+				"life": "90",
+				"attack": "126",
+				"defense": "126",
+				"vitesse": "29"
 			}
 			{
 				"id": "#2",
 				"img": "002.png",
 				"name-fr": "Herbizarre",
 				"type": "Plante / Poison",
-				"life": "none",
-				"attack": "156"
+				"life": "120",
+				"attack": "156",
+				"defense": "158",
+				"vitesse": "8"
 			}
 			{
 				"id": "#3",
 				"img": "003.png",
 				"name-fr": "Florizarre",
 				"type": "Plante / Poison",
-				"life": "none",
-				"attack": "198"
+				"life": "160",
+				"attack": "198",
+				"defense": "200",
+				"vitesse": "4"
 				
 			}
 			{
@@ -34,1184 +40,1480 @@
 				"img": "004.png",
 				"name-fr": "Salameche",
 				"type": "Feu",
-				"life": "none",
-				"attack": "128"
+				"life": "78",
+				"attack": "128",
+				"defense": "108",
+				"vitesse": "10"
 			}
 			{
 				"id": "#5",
 				"img": "005.png",
 				"name-fr": "Reptincel",
 				"type": "Feu",
-				"life": "none",
-				"attack": "160"
+				"life": "116",
+				"attack": "160",
+				"defense": "140",
+				"vitesse": "8"
 			}
 			{
 				"id": "#6",
 				"img": "006.png",
 				"name-fr": "Dracaufeu",
 				"type": "Feu / Vol",
-				"life": "none",
-				"attack": "212"
+				"life": "156",
+				"attack": "212",
+				"defense": "182",
+				"vitesse": "4"
 			}
 			{
 				"id": "#7",
 				"img": "007.png",
 				"name-fr": "Carapuce",
 				"type": "Eau",
-				"life": "none",
-				"attack": "112"
+				"life": "88",
+				"attack": "112",
+				"defense": "142",
+				"vitesse": "29"
 			}
 			{
 				"id": "#8",
 				"img": "008.png",
 				"name-fr": "Carabaffe",
 				"type": "Eau",
-				"life": "none",
-				"attack": "144"
+				"life": "118",
+				"attack": "144",
+				"defense": "176",
+				"vitesse": "8"
 			}
 			{
 				"id": "#9",
 				"img": "009.png",
 				"name-fr": "Tortank",
 				"type": "Eau",
-				"life": "none",
-				"attack": "186"
+				"life": "158",
+				"attack": "186",
+				"defense": "222",
+				"vitesse": "5"
 			}
 			{
 				"id": "#10",
 				"img": "010.png",
 				"name-fr": "Chenipan",
 				"type": "Insecte",
-				"life": "none",
-				"attack": "62"
+				"life": "90",
+				"attack": "62",
+				"defense": "66",
+				"vitesse": "29"
 			}
 			{
 				"id": "#11",
 				"img": "011.png",
 				"name-fr": "Chrysacier",
 				"type": "Insecte",
-				"life": "none",
-				"attack": "56"
+				"life": "100",
+				"attack": "56",
+				"defense": "86",
+				"vitesse": "3600"
 			}
 			{
 				"id": "#12",
 				"img": "012.png",
 				"name-fr": "Papilusion",
 				"type": "Insecte / Vol",
-				"life": "none",
-				"attack": "144"
+				"life": "120",
+				"attack": "144",
+				"defense": "144",
+				"vitesse": "17"
 			}
 			{
 				"id": "#13",
 				"img": "013.png",
 				"name-fr": "Aspicot",
 				"type": "Insecte / Poison",
-				"life": "none",
-				"attack": "68"
+				"life": "80",
+				"attack": "68",
+				"defense": "64",
+				"vitesse": "29"
 			}
 			{
 				"id": "#14",
 				"img": "014.png",
 				"name-fr": "Coconfort",
 				"type": "Insecte / Poison",
-				"life": "none",
-				"attack": "62"
+				"life": "90",
+				"attack": "62",
+				"defense": "82",
+				"vitesse": "3600"
 			}
 			{
 				"id": "#15",
 				"img": "015.png",
 				"name-fr": "Dardargnan",
 				"type": "Insecte / Poison",
-				"life": "none",
-				"attack": "144"
+				"life": "130",
+				"attack": "144",
+				"defense": "130",
+				"vitesse": "17"
 			}
 			{
 				"id": "#16",
 				"img": "016.png",
 				"name-fr": "Roucool",
 				"type": "Normal / Vol",
-				"life": "none",
-				"attack": "94"
+				"life": "80",
+				"attack": "94",
+				"defense": "90",
+				"vitesse": "29"
 			}
 			{
 				"id": "#17",
 				"img": "017.png",
 				"name-fr": "Roucoups",
 				"type": "Normal / Vol",
-				"life": "none",
-				"attack": "126"
+				"life": "126",
+				"attack": "126",
+				"defense": "122",
+				"vitesse": "29"
 			}
 			{
 				"id": "#18",
 				"img": "018.png",
 				"name-fr": "Roucarnage",
 				"type": "Normal / Vol",
-				"life": "none",
-				"attack": "170"
+				"life": "166",
+				"attack": "170",
+				"defense": "166",
+				"vitesse": "17"
 			}
 			{
 				"id": "#19",
 				"img": "019.png",
 				"name-fr": "Rattata",
 				"type": "Normal",
-				"life": "none",
-				"attack": "92"
+				"life": "60",
+				"attack": "92",
+				"defense": "86",
+				"vitesse": "29"
 			}
 			{
 				"id": "#20",
 				"img": "020.png",
 				"name-fr": "Rattatac",
 				"type": "Normal",
-				"life": "none",
-				"attack": "146"
+				"life": "110",
+				"attack": "146",
+				"defense": "150",
+				"vitesse": "8"
 			}
 			{
 				"id": "#21",
 				"img": "021.png",
 				"name-fr": "Piafabec",
 				"type": "Normal / Vol",
-				"life": "none",
-				"attack": "102"
+				"life": "80",
+				"attack": "102",
+				"defense": "78",
+				"vitesse": "29"
 			}
 			{
 				"id": "#22",
 				"img": "022.png",
 				"name-fr": "Rapasdepic",
 				"type": "Normal / Vol",
-				"life": "none",
-				"attack": "168"
+				"life": "130",
+				"attack": "168",
+				"defense": "146",
+				"vitesse": "23"
 			}
 			{
 				"id": "#23",
 				"img": "023.png",
 				"name-fr": "Abo",
 				"type": "Poison",
-				"life": "none",
-				"attack": "112"
+				"life": "70",
+				"attack": "112",
+				"defense": "112",
+				"vitesse": "10"
 			}
 			{
 				"id": "#24",
 				"img": "024.png",
 				"name-fr": "Arbok",
 				"type": "Poison",
-				"life": "none",
-				"attack": "166"
+				"life": "120",
+				"attack": "166",
+				"defense": "166",
+				"vitesse": "8"
 			}
 			{
 				"id": "#25",
 				"img": "025.png",
 				"name-fr": "Pikachu",
 				"type": "Electrik",
-				"life": "none",
-				"attack": "124"
+				"life": "70",
+				"attack": "124",
+				"defense": "108",
+				"vitesse": "29"
 			}
 			{
 				"id": "#26",
 				"img": "026.png",
 				"name-fr": "Raichu",
 				"type": "Electrik",
-				"life": "none",
-				"attack": "200"
+				"life": "120",
+				"attack": "200",
+				"defense": "154",
+				"vitesse": "17"
 			}
 			{
 				"id": "#27",
 				"img": "027.png",
 				"name-fr": "Sabelette",
 				"type": "Sol",
-				"life": "none",
-				"attack": "90"
+				"life": "100",
+				"attack": "90",
+				"defense": "114",
+				"vitesse": "23"
 			}
 			{
 				"id": "#28",
 				"img": "028.png",
 				"name-fr": "Sablaireau",
 				"type": "Sol",
-				"life": "none",
-				"attack": "150"
+				"life": "150",
+				"attack": "150",
+				"defense": "172",
+				"vitesse": "4"
 			}
 			{
 				"id": "#29",
 				"img": "029.png",
 				"name-fr": "Nidoran F",
 				"type": "Poison",
-				"life": "none",
-				"attack": "100"
+				"life": "110",
+				"attack": "100",
+				"defense": "104",
+				"vitesse": "10"
 			}
 			{
 				"id": "#30",
 				"img": "030.png",
 				"name-fr": "Nidorina",
 				"type": "Poison",
-				"life": "none",
-				"attack": "132"
+				"life": "140",
+				"attack": "132",
+				"defense": "136",
+				"vitesse": "8"
 			}
 			{
 				"id": "#31",
 				"img": "031.png",
 				"name-fr": "Nidoqueen",
 				"type": "Poison / Sol",
-				"life": "none",
-				"attack": "184"
+				"life": "180",
+				"attack": "184",
+				"defense": "190",
+				"vitesse": "5"
 			}
 			{
 				"id": "#32",
 				"img": "032.png",
 				"name-fr": "Nidoran M",
 				"type": "Poison",
-				"life": "none",
-				"attack": "110"
+				"life": "92",
+				"attack": "110",
+				"defense": "94",
+				"vitesse": "10"
 			}
 			{
 				"id": "#33",
 				"img": "033.png",
 				"name-fr": "Nidorino",
 				"type": "Poison",
-				"life": "none",
-				"attack": "142"
+				"life": "122",
+				"attack": "142",
+				"defense": "128",
+				"vitesse": "8"
 			}
 			{
 				"id": "#34",
 				"img": "034.png",
 				"name-fr": "Nidoking",
 				"type": "Poison / Sol",
-				"life": "none",
-				"attack": "204"
+				"life": "162",
+				"attack": "204",
+				"defense": "170",
+				"vitesse": "5"
 			}
 			{
 				"id": "#35",
 				"img": "035.png",
 				"name-fr": "Melofee",
 				"type": "Fee",
-				"life": "none",
-				"attack": "116"
+				"life": "140",
+				"attack": "116",
+				"defense": "124",
+				"vitesse": "23"
 			}
 			{
 				"id": "#36",
 				"img": "036.png",
 				"name-fr": "Melodelfe",
 				"type": "Fee",
-				"life": "none",
-				"attack": "178"
+				"life": "190",
+				"attack": "178",
+				"defense": "178",
+				"vitesse": "11"
 			}
 			{
 				"id": "#37",
 				"img": "037.png",
 				"name-fr": "Goupix",
 				"type": "Feu",
-				"life": "none",
-				"attack": "106"
+				"life": "76",
+				"attack": "106",
+				"defense": "118",
+				"vitesse": "29"
 			}
 			{
 				"id": "#38",
 				"img": "038.png",
 				"name-fr": "Feunard",
 				"type": "Feu",
-				"life": "none",
-				"attack": "176"
+				"life": "146",
+				"attack": "176",
+				"defense": "194",
+				"vitesse": "14"
 			}
 			{
 				"id": "#39",
 				"img": "039.png",
 				"name-fr": "Rondoudou",
 				"type": "Normal / Fee",
-				"life": "none",
-				"attack": "98"
+				"life": "230",
+				"attack": "98",
+				"defense": "54",
+				"vitesse": "29"
 			}
 			{
 				"id": "#40",
 				"img": "040.png",
 				"name-fr": "Grodoudou",
 				"type": "Normal / Fee",
-				"life": "none",
-				"attack": "168"
+				"life": "280",
+				"attack": "168",
+				"defense": "108",
+				"vitesse": "11"
 			}
 			{
 				"id": "#41",
 				"img": "041.png",
 				"name-fr": "Nosferapti",
 				"type": "Poison / Vol",
-				"life": "none",
-				"attack": "88"
+				"life": "80",
+				"attack": "88",
+				"defense": "90",
+				"vitesse": "29"
 			}
 			{
 				"id": "#42",
 				"img": "042.png",
 				"name-fr": "Nosferalto",
 				"type": "Poison / Vol",
-				"life": "none",
-				"attack": "164"
+				"life": "150",
+				"attack": "164",
+				"defense": "164",
+				"vitesse": "17"
 			}
 			{
 				"id": "#43",
 				"img": "043.png",
 				"name-fr": "Mystherbe",
 				"type": "Plante / Poison",
-				"life": "none",
-				"attack": "134"
+				"life": "90",
+				"attack": "134",
+				"defense": "130",
+				"vitesse": "29"
 			}
 			{
 				"id": "#44",
 				"img": "044.png",
 				"name-fr": "Ortide",
 				"type": "Plante / Poison",
-				"life": "none",
-				"attack": "162"
+				"life": "120",
+				"attack": "162",
+				"defense": "158",
+				"vitesse": "23"
 			}
 			{
 				"id": "#45",
 				"img": "045.png",
 				"name-fr": "Rafflesia",
 				"type": "Plante / Poison",
-				"life": "none",
-				"attack": "202"
+				"life": "150",
+				"attack": "202",
+				"defense": "190",
+				"vitesse": "4"
 			}
 			{
 				"id": "#46",
 				"img": "046.png",
 				"name-fr": "Paras",
 				"type": "Insecte / Plante",
-				"life": "none",
-				"attack": "122"
+				"life": "70",
+				"attack": "122",
+				"defense": "120",
+				"vitesse": "10"
 			}
 			{
 				"id": "#47",
 				"img": "047.png",
 				"name-fr": "Parasect",
 				"type": "Insecte / Plante",
-				"life": "none",
-				"attack": "162"
+				"life": "120",
+				"attack": "162",
+				"defense": "170",
+				"vitesse": "6"
 			}
 			{
 				"id": "#48",
 				"img": "048.png",
 				"name-fr": "Mimitoss",
 				"type": "Insecte / Poison",
-				"life": "none",
-				"attack": "108"
+				"life": "120",
+				"attack": "108",
+				"defense": "118",
+				"vitesse": "29"
 			}
 			{
 				"id": "#49",
 				"img": "049.png",
 				"name-fr": "Aeromite",
 				"type": "Insecte / Poison",
-				"life": "none",
-				"attack": "172"
+				"life": "140",
+				"attack": "172",
+				"defense": "154",
+				"vitesse": "17"
 			}
 			{
 				"id": "#50",
 				"img": "050.png",
 				"name-fr": "Taupiqueur",
-				"life": "none",
 				"type": "Sol",
-				"attack": "108"
+				"life": "20",
+				"attack": "108",
+				"defense": "86",
+				"vitesse": "10"
 			}
 			{
 				"id": "#51",
 				"img": "051.png",
 				"name-fr": "Triopikeur",
-				"life": "none",
 				"type": "Sol",
-				"attack": "148"
+				"life": "70",
+				"attack": "148",
+				"defense": "140",
+				"vitesse": "10"
 			}
 			{
 				"id": "#52",
 				"img": "052.png",
 				"name-fr": "Miaouss",
 				"type": "Normal",
-				"life": "none",
-				"attack": "104"
+				"life": "80",
+				"attack": "104",
+				"defense": "94",
+				"vitesse": "10"
 			}
 			{
 				"id": "#53",
 				"img": "053.png",
 				"name-fr": "Persian",
 				"type": "Normal",
-				"life": "none",
-				"attack": "156"
+				"life": "130",
+				"attack": "156",
+				"defense": "146",
+				"vitesse": "23"
 			}
 			{
 				"id": "#54",
 				"img": "054.png",
 				"name-fr": "Psykokwak",
 				"type": "Eau",
-				"life": "none",
-				"attack": "132"
+				"life": "100",
+				"attack": "132",
+				"defense": "112",
+				"vitesse": "29"
 			}
 			{
 				"id": "#55",
 				"img": "055.png",
 				"name-fr": "Akwakwak",
 				"type": "Eau",
-				"life": "none",
-				"attack": "194"
+				"life": "160",
+				"attack": "194",
+				"defense": "176",
+				"vitesse": "14"
 			}
 			{
 				"id": "#56",
 				"img": "056.png",
 				"name-fr": "Ferosinge",
 				"type": "Combat",
-				"life": "none",
-				"attack": "122"
+				"life": "80",
+				"attack": "122",
+				"defense": "96",
+				"vitesse": "10"
 			}
 			{
 				"id": "#57",
 				"img": "057.png",
 				"name-fr": "Colossinge",
 				"type": "Combat",
-				"life": "none",
-				"attack": "178"
+				"life": "130",
+				"attack": "178",
+				"defense": "150",
+				"vitesse": "6"
 			}
 			{
 				"id": "#58",
 				"img": "058.png",
 				"name-fr": "Caninos",
 				"type": "Feu",
-				"life": "none",
-				"attack": "156"
+				"life": "110",
+				"attack": "156",
+				"defense": "110",
+				"vitesse": "29"
 			}
 			{
 				"id": "#59",
 				"img": "059.png",
 				"name-fr": "Arcanin",
 				"type": "Feu",
-				"life": "none",
-				"attack": "230"
+				"life": "180",
+				"attack": "230",
+				"defense": "180",
+				"vitesse": "11"
 			}
 			{
 				"id": "#60",
 				"img": "060.png",
 				"name-fr": "Ptitard",
 				"type": "Eau",
-				"life": "none",
-				"attack": "108"
+				"life": "80",
+				"attack": "108",
+				"defense": "98",
+				"vitesse": "29"
 			}
 			{
 				"id": "#61",
 				"img": "061.png",
 				"name-fr": "Tetarte",
 				"type": "Eau",
-				"life": "none",
-				"attack": "132"
+				"life": "130",
+				"attack": "132",
+				"defense": "132",
+				"vitesse": "23"
 			}
 			{
 				"id": "#62",
 				"img": "062.png",
 				"name-fr": "Tartard",
 				"type": "Eau / Combat",
-				"life": "none",
-				"attack": "180"
+				"life": "180",
+				"attack": "180",
+				"defense": "202",
+				"vitesse": "4"
 			}
 			{
 				"id": "#63",
 				"img": "063.png",
 				"name-fr": "Abra",
 				"type": "Psy",
-				"life": "none",
-				"attack": "110"
+				"life": "50",
+				"attack": "110",
+				"defense": "76",
+				"vitesse": "10"
 			}
 			{
 				"id": "#64",
 				"img": "064.png",
 				"name-fr": "Kadabra",
 				"type": "Psy",
-				"life": "none",
-				"attack": "150"
+				"life": "80",
+				"attack": "150",
+				"defense": "112",
+				"vitesse": "17"
 			}
 			{
 				"id": "#65",
 				"img": "065.png",
 				"name-fr": "Alakazam",
 				"type": "Psy",
-				"life": "none",
-				"attack": "186"
+				"life": "110",
+				"attack": "186",
+				"defense": "152",
+				"vitesse": "11"
 			}
 			{
 				"id": "#66",
 				"img": "066.png",
 				"name-fr": "Machoc",
 				"type": "Combat",
-				"life": "none",
-				"attack": "118"
+				"life": "140",
+				"attack": "118",
+				"defense": "96",
+				"vitesse": "8"
 			}
 			{
 				"id": "#67",
 				"img": "067.png",
 				"name-fr": "Machopeur",
 				"type": "Combat",
-				"life": "none",
-				"attack": "154"
+				"life": "160",
+				"attack": "154",
+				"defense": "144",
+				"vitesse": "5"
 			}
 			{
 				"id": "#68",
 				"img": "068.png",
 				"name-fr": "Mackogneur",
 				"type": "Combat",
-				"life": "none",
-				"attack": "198"
+				"life": "180",
+				"attack": "198",
+				"defense": "180",
+				"vitesse": "3"
 			}
 			{
 				"id": "#69",
 				"img": "069.png",
 				"name-fr": "Chetiflor",
 				"type": "Plante / Poison",
-				"life": "none",
-				"attack": "158"
+				"life": "100",
+				"attack": "158",
+				"defense": "78",
+				"vitesse": "29"
 			}
 			{
 				"id": "#70",
 				"img": "070.png",
 				"name-fr": "Boustiflor",
 				"type": "Plante / Poison",
-				"life": "none",
-				"attack": "190"
+				"life": "130",
+				"attack": "190",
+				"defense": "110",
+				"vitesse": "23"
 			}
 			{
 				"id": "#71",
 				"img": "071.png",
 				"name-fr": "Empiflor",
 				"type": "Plante / Poison",
-				"life": "none",
-				"attack": "222"
+				"life": "160",
+				"attack": "222",
+				"defense": "152",
+				"vitesse": "5"
 			}
 			{
 				"id": "#72",
 				"img": "072.png",
 				"name-fr": "Tentacool",
 				"type": "Eau / Poison",
-				"life": "none",
-				"attack": "106"
+				"life": "80",
+				"attack": "106",
+				"defense": "136",
+				"vitesse": "8"
 			}
 			{
 				"id": "#73",
 				"img": "073.png",
 				"name-fr": "Tentacruel",
 				"type": "Eau / Poison",
-				"life": "none",
-				"attack": "170"
+				"life": "160",
+				"attack": "170",
+				"defense": "196",
+				"vitesse": "4"
 			}
 			{
 				"id": "#74",
 				"img": "074.png",
 				"name-fr": "Racaillou",
 				"type": "Roche / Sol",
-				"life": "none",
-				"attack": "106"
+				"life": "80",
+				"attack": "106",
+				"defense": "118",
+				"vitesse": "23"
 			}
 			{
 				"id": "#75",
 				"img": "075.png",
 				"name-fr": "Gravalanch",
 				"type": "Roche / Sol",
-				"life": "none",
-				"attack": "142"
+				"life": "110",
+				"attack": "142",
+				"defense": "156",
+				"vitesse": "5"
 			}
 			{
 				"id": "#76",
 				"img": "076.png",
 				"name-fr": "Grolem",
 				"type": "Roche / Sol",
-				"life": "none",
-				"attack": "176"
+				"life": "160",
+				"attack": "176",
+				"defense": "198",
+				"vitesse": "3"
 			}
 			{
 				"id": "#77",
 				"img": "077.png",
 				"name-fr": "Ponyta",
 				"type": "Feu",
-				"life": "none",
-				"attack": "168"
+				"life": "100",
+				"attack": "168",
+				"defense": "138",
+				"vitesse": "23"
 			}
 			{
 				"id": "#78",
 				"img": "078.png",
 				"name-fr": "Galopa",
 				"type": "Feu",
-				"life": "none",
-				"attack": "200"
+				"life": "130",
+				"attack": "200",
+				"defense": "170",
+				"vitesse": "17"
 			}
 			{
 				"id": "#79",
 				"img": "079.png",
 				"name-fr": "Ramoloss",
 				"type": "Eau / Psy",
-				"life": "none",
-				"attack": "110"
+				"life": "180",
+				"attack": "110",
+				"defense": "110",
+				"vitesse": "23"
 			}
 			{
 				"id": "#80",
 				"img": "080.png",
 				"name-fr": "Flagadoss",
 				"type": "Eau / Psy",
-				"life": "none",
-				"attack": "184"
+				"life": "190",
+				"attack": "184",
+				"defense": "198",
+				"vitesse": "8"
 			}
 			{
 				"id": "#81",
 				"img": "081.png",
 				"name-fr": "Magneti",
 				"type": "Electrik / Acier",
-				"life": "none",
-				"attack": "128"
+				"life": "50",
+				"attack": "128",
+				"defense": "138",
+				"vitesse": "23"
 			}
 			{
 				"id": "#82",
 				"img": "082.png",
 				"name-fr": "Magneton",
 				"type": "Electrik / Acier",
-				"life": "none",
-				"attack": "186"
+				"life": "100",
+				"attack": "186",
+				"defense": "180",
+				"vitesse": "14"
 			}
 			{
 				"id": "#83",
 				"img": "083.png",
 				"name-fr": "Canarticho",
 				"type": "Normal / Vol",
-				"life": "none",
-				"attack": "138"
+				"life": "104",
+				"attack": "138",
+				"defense": "132",
+				"vitesse": "10"
 			}
 			{
 				"id": "#84",
 				"img": "084.png",
 				"name-fr": "Doduo",
 				"type": "Normal / Vol",
-				"life": "none",
-				"attack": "126"
+				"life": "70",
+				"attack": "126",
+				"defense": "96",
+				"vitesse": "29"
 			}
 			{
 				"id": "#85",
 				"img": "085.png",
 				"name-fr": "Dodrio",
 				"type": "Normal / Vol",
-				"life": "none",
-				"attack": "182"
+				"life": "120",
+				"attack": "182",
+				"defense": "150",
+				"vitesse": "17"
 			}
 			{
 				"id": "#86",
 				"img": "086.png",
 				"name-fr": "Otaria",
 				"type": "Eau",
-				"life": "none",
-				"attack": "104"
+				"life": "130",
+				"attack": "104",
+				"defense": "138",
+				"vitesse": "29"
 			}
 			{
 				"id": "#87",
 				"img": "087.png",
 				"name-fr": "Lamantine",
 				"type": "Eau / Glace",
-				"life": "none",
-				"attack": "156"
+				"life": "180",
+				"attack": "156",
+				"defense": "192",
+				"vitesse": "14"
 			}
 			{
 				"id": "#88",
 				"img": "088.png",
 				"name-fr": "Tadmorv",
 				"type": "Poison",
-				"life": "none",
-				"attack": "124"
+				"life": "160",
+				"attack": "124",
+				"defense": "110",
+				"vitesse": "8"
 			}
 			{
 				"id": "#89",
 				"img": "089.png",
 				"name-fr": "Grotadmorv",
 				"type": "Poison",
-				"life": "none",
-				"attack": "180"
+				"life": "210",
+				"attack": "180",
+				"defense": "188",
+				"vitesse": "3"
 			}
 			{
 				"id": "#90",
 				"img": "90.png",
 				"name-fr": "Kokiyas",
 				"type": "Eau",
-				"life": "none",
-				"attack": "120"
+				"life": "60",
+				"attack": "120",
+				"defense": "112",
+				"vitesse": "8"
 			}
 			{
 				"id": "#91",
 				"img": "091.png",
 				"name-fr": "Crustabri",
 				"type": "Eau / Glace",
-				"life": "none",
-				"attack": "196"
+				"life": "100",
+				"attack": "196",
+				"defense": "196",
+				"vitesse": "8"
 			}
 			{
 				"id": "#92",
 				"img": "092.png",
 				"name-fr": "Fantominus",
 				"type": "Spectre / Poison",
-				"life": "none",
-				"attack": "136"
+				"life": "60",
+				"attack": "136",
+				"defense": "82",
+				"vitesse": "10"
 			}
 			{
 				"id": "#93",
 				"img": "093.png",
 				"name-fr": "Spectrum",
 				"type": "Spectre / Poison",
-				"life": "none",
-				"attack": "172"
+				"life": "90",
+				"attack": "172",
+				"defense": "118",
+				"vitesse": "8"
 			}
 			{
 				"id": "#94",
 				"img": "094.png",
 				"name-fr": "Ectoplasma",
 				"type": "Spectre / Poison",
-				"life": "none",
-				"attack": "204"
+				"life": "120",
+				"attack": "204",
+				"defense": "156",
+				"vitesse": "5"
 			}
 			{
 				"id": "#95",
 				"img": "095.png",
 				"name-fr": "Onix",
 				"type": "Roche / Sol",
-				"life": "none",
-				"attack": "90"
+				"life": "70",
+				"attack": "90",
+				"defense": "186",
+				"vitesse": "6"
 			}
 			{
 				"id": "#96",
 				"img": "096.png",
 				"name-fr": "Soporifik",
 				"type": "Psy",
-				"life": "none",
-				"attack": "104"
+				"life": "120",
+				"attack": "104",
+				"defense": "140",
+				"vitesse": "23"
 			}
 			{
 				"id": "#97",
 				"img": "097.png",
 				"name-fr": "Hypnomade",
 				"type": "Psy",
-				"life": "none",
-				"attack": "162"
+				"life": "170",
+				"attack": "162",
+				"defense": "196",
+				"vitesse": "4"
 			}
 			{
 				"id": "#98",
 				"img": "098.png",
 				"name-fr": "Krabby",
 				"type": "Eau",
-				"life": "none",
-				"attack": "116"
+				"life": "60",
+				"attack": "116",
+				"defense": "110",
+				"vitesse": "8"
 			}
 			{
 				"id": "#99",
 				"img": "099.png",
 				"name-fr": "Krabboss",
 				"type": "Eau",
-				"life": "none",
-				"attack": "178"
+				"life": "110",
+				"attack": "178",
+				"defense": "168",
+				"vitesse": "3"
 			}
 			{
 				"id": "#100",
 				"img": "100.png",
 				"name-fr": "Voltorbe",
 				"type": "Electrik",
-				"life": "none",
-				"attack": "102"
+				"life": "80",
+				"attack": "102",
+				"defense": "124",
+				"vitesse": "29"
 			}
 			{
 				"id": "#101",
 				"img": "101.png",
 				"name-fr": "Electrode",
 				"type": "Electrik",
-				"life": "none",
-				"attack": "150"
+				"life": "120",
+				"attack": "150",
+				"defense": "174",
+				"vitesse": "23"
 			}
 			{
 				"id": "#102",
 				"img": "102.png",
 				"name-fr": "Noeunoeuf",
 				"type": "Plante / Psy",
-				"life": "none",
-				"attack": "110"
+				"life": "120",
+				"attack": "110",
+				"defense": "132",
+				"vitesse": "23"
 			}
 			{
 				"id": "#103",
 				"img": "103.png",
 				"name-fr": "Noadkoko",
 				"type": "Plante / Psy",
-				"life": "none",
-				"attack": "232"
+				"life": "190",
+				"attack": "232",
+				"defense": "164",
+				"vitesse": "3"
 			}
 			{
 				"id": "#104",
 				"img": "104.png",
 				"name-fr": "Osselait",
-				"life": "none",
 				"type": "Sol",
-				"attack": "102"
+				"life": "100",
+				"attack": "102",
+				"defense": "150",
+				"vitesse": "23"
 			}
 			{
 				"id": "#105",
 				"img": "105.png",
 				"name-fr": "Ossatueur",
 				"type": "Sol",
-				"life": "none",
-				"attack": "140"
+				"life": "120",
+				"attack": "140",
+				"defense": "202",
+				"vitesse": "5"
 			}
 			{
 				"id": "#106",
 				"img": "106.png",
 				"name-fr": "Kicklee",
 				"type": "Combat",
-				"life": "none",
-				"attack": "148"
+				"life": "100",
+				"attack": "148",
+				"defense": "172",
+				"vitesse": "4"
 			}
 			{
 				"id": "#107",
 				"img": "107.png",
 				"name-fr": "Tygnon",
 				"type": "Combat",
-				"life": "none",
-				"attack": "138"
+				"life": "100",
+				"attack": "138",
+				"defense": "204",
+				"vitesse": "5"
 			}
 			{
 				"id": "#108",
 				"img": "108.png",
 				"name-fr": "Excelangue",
 				"type": "Normal",
-				"life": "none",
-				"attack": "126"
+				"life": "180",
+				"attack": "126",
+				"defense": "160",
+				"vitesse": "8"
 			}
 			{
 				"id": "#109",
 				"img": "109.png",
 				"name-fr": "Smogo",
 				"type": "Poison",
-				"life": "none",
-				"attack": "136"
+				"life": "80",
+				"attack": "136",
+				"defense": "142",
+				"vitesse": "23"
 			}
 			{
 				"id": "#110",
 				"img": "110.png",
 				"name-fr": "Smogogo",
 				"type": "Poison",
-				"life": "none",
-				"attack": "190"
+				"life": "130",
+				"attack": "190",
+				"defense": "198",
+				"vitesse": "11"
 			}
 			{
 				"id": "#111",
 				"img": "111.png",
 				"name-fr": "Rhinocorne",
 				"type": "Sol / Roche",
-				"life": "none",
-				"attack": "110"
+				"life": "160",
+				"attack": "110",
+				"defense": "116",
+				"vitesse": "5"
 			}
 			{
 				"id": "#112",
 				"img": "112.png",
 				"name-fr": "Rhinoferos",
 				"type": "Sol / Roche",
-				"life": "none",
-				"attack": "166"
+				"life": "210",
+				"attack": "166",
+				"defense": "160",
+				"vitesse": "3"
 			}
 			{
 				"id": "#113",
 				"img": "113.png",
 				"name-fr": "Leveinard",
 				"type": "Normal",
-				"life": "none",
-				"attack": "40"
+				"life": "500",
+				"attack": "40",
+				"defense": "60",
+				"vitesse": "8"
 			}
 			{
 				"id": "#114",
 				"img": "114.png",
 				"name-fr": "Saquedeneu",
 				"type": "Plante",
-				"life": "none",
-				"attack": "164"
+				"life": "130",
+				"attack": "164",
+				"defense": "152",
+				"vitesse": "11"
 			}
 			{
 				"id": "#115",
 				"img": "115.png",
 				"name-fr": "Kangourex",
 				"type": "Normal",
-				"life": "none",
-				"attack": "142"
+				"life": "210",
+				"attack": "142",
+				"defense": "178",
+				"vitesse": "4"
 			}
 			{
 				"id": "#116",
 				"img": "116.png",
 				"name-fr": "Hypotrempe",
 				"type": "Eau",
-				"life": "none",
-				"attack": "122"
+				"life": "60",
+				"attack": "122",
+				"defense": "100",
+				"vitesse": "29"
 			}
 			{
 				"id": "#117",
 				"img": "117.png",
 				"name-fr": "Hypocean",
 				"type": "Eau",
-				"life": "none",
-				"attack": "176"
+				"life": "110",
+				"attack": "176",
+				"defense": "150",
+				"vitesse": "17"
 			}
 			{
 				"id": "#118",
 				"img": "118.png",
 				"name-fr": "Poissirene",
 				"type": "Eau",
-				"life": "none",
-				"attack": "112"
+				"life": "90",
+				"attack": "112",
+				"defense": "126",
+				"vitesse": "29"
 			}
 			{
 				"id": "#119",
 				"img": "119.png",
 				"name-fr": "Poissoroy",
 				"type": "Eau",
-				"life": "none",
-				"attack": "172"
+				"life": "160",
+				"attack": "172",
+				"defense": "160",
+				"vitesse": "5"
 			}
 			{
 				"id": "#120",
 				"img": "120.png",
 				"name-fr": "Stari",
 				"type": "Eau",
-				"life": "none",
-				"attack": "130"
+				"life": "60",
+				"attack": "130",
+				"defense": "128",
+				"vitesse": "29"
 			}
 			{
 				"id": "#121",
 				"img": "121.png",
 				"name-fr": "Staross",
 				"type": "Eau / Psy",
-				"life": "none",
-				"attack": "194"
+				"life": "120",
+				"attack": "194",
+				"defense": "192",
+				"vitesse": "17"
 			}
 			{
 				"id": "#122",
 				"img": "122.png",
 				"name-fr": "Mr.Mime",
 				"type": "Psy / Fee",
-				"life": "none",
-				"attack": "154"
+				"life": "80",
+				"attack": "154",
+				"defense": "196",
+				"vitesse": "14"
 			}
 			{
 				"id": "#123",
 				"img": "123.png",
 				"name-fr": "Insecateur",
 				"type": "Insecte / Vol",
-				"life": "none",
-				"attack": "176"
+				"life": "140",
+				"attack": "176",
+				"defense": "180",
+				"vitesse": "5"
 			}
 			{
 				"id": "#124",
 				"img": "124.png",
 				"name-fr": "Lippoutou",
 				"type": "Glace / Psy",
-				"life": "none",
-				"attack": "172"
+				"life": "130",
+				"attack": "172",
+				"defense": "134",
+				"vitesse": "11"
 			}
 			{
 				"id": "#125",
 				"img": "125.png",
 				"name-fr": "Elektek",
 				"type": "Electrik",
-				"life": "none",
-				"attack": "198"
+				"life": "130",
+				"attack": "198",
+				"defense": "160",
+				"vitesse": "17"
 			}
 			{
 				"id": "#126",
 				"img": "126.png",
 				"name-fr": "Magmar",
 				"type": "Feu",
-				"life": "none",
-				"attack": "214"
+				"life": "130",
+				"attack": "214",
+				"defense": "158",
+				"vitesse": "5"
 			}
 			{
 				"id": "#127",
 				"img": "127.png",
 				"name-fr": "Scarabrute",
 				"type": "Insecte",
-				"life": "none",
-				"attack": "184"
+				"life": "130",
+				"attack": "184",
+				"defense": "186",
+				"vitesse": "3"
 			}
 			{
 				"id": "#128",
 				"img": "128.png",
 				"name-fr": "Tauros",
 				"type": "Normal",
-				"life": "none",
-				"attack": "148"
+				"life": "150",
+				"attack": "148",
+				"defense": "184",
+				"vitesse": "11"
 			}
 			{
 				"id": "#129",
 				"img": "129.png",
 				"name-fr": "Magicarpe",
 				"type": "Eau",
-				"life": "none",
-				"attack": "42"
+				"life": "40",
+				"attack": "42",
+				"defense": "84",
+				"vitesse": "3600"
 			}
 			{
 				"id": "#130",
 				"img": "130.png",
 				"name-fr": "Leviator",
 				"type": "Eau / Vol",
-				"life": "none",
-				"attack": "192"
+				"life": "190",
+				"attack": "192",
+				"defense": "196",
+				"vitesse": "3"
 			}
 			{
 				"id": "#131",
 				"img": "131.png",
 				"name-fr": "Lokhlass",
 				"type": "Eau / Glace",
-				"life": "none",
-				"attack": "186"
+				"life": "260",
+				"attack": "186",
+				"defense": "190",
+				"vitesse": "8"
 			}
 			{
 				"id": "#132",
 				"img": "132.png",
 				"name-fr": "Metamorph",
 				"type": "Normal",
-				"life": "none",
-				"attack": "110"
+				"life": "96",
+				"attack": "110",
+				"defense": "110",
+				"vitesse": "3600"
 			}
 			{
 				"id": "#133",
 				"img": "133.png",
 				"name-fr": "Evoli",
 				"type": "Normal",
-				"life": "none",
-				"attack": "114"
+				"life": "110",
+				"attack": "114",
+				"defense": "128",
+				"vitesse": "29"
 			}
 			{
 				"id": "#134",
 				"img": "134.png",
 				"name-fr": "Aquali",
 				"type": "Eau",
-				"life": "none",
-				"attack": "186"
+				"life": "260",
+				"attack": "186",
+				"defense": "168",
+				"vitesse": "8"
 			}
 			{
 				"id": "#135",
 				"img": "135.png",
 				"name-fr": "Voltali",
 				"type": "Electrik",
-				"life": "none",
-				"attack": "192"
+				"life": "130",
+				"attack": "192",
+				"defense": "174",
+				"vitesse": "11"
 			}
 			{
 				"id": "#136",
 				"img": "136.png",
 				"name-fr": "Pyroli",
 				"type": "Feu",
-				"life": "none",
-				"attack": "238"
+				"life": "130",
+				"attack": "238",
+				"defense": "178",
+				"vitesse": "8"
 			}
 			{
 				"id": "#137",
 				"img": "137.png",
 				"name-fr": "Porygon",
 				"type": "Normal",
-				"life": "none",
-				"attack": "156"
+				"life": "130",
+				"attack": "156",
+				"defense": "158",
+				"vitesse": "23"
 			}
 			{
 				"id": "#138",
 				"img": "138.png",
 				"name-fr": "Amonita",
 				"type": "Roche / Eau",
-				"life": "none",
-				"attack": "132"
+				"life": "70",
+				"attack": "132",
+				"defense": "160",
+				"vitesse": "23"
 			}
 			{
 				"id": "#139",
 				"img": "139.png",
 				"name-fr": "Amonistar",
 				"type": "Roche / Eau",
-				"life": "none",
-				"attack": "180"
+				"life": "140",
+				"attack": "180",
+				"defense": "202",
+				"vitesse": "8"
 			}
 			{
 				"id": "#140",
 				"img": "140.png",
 				"name-fr": "Kabuto",
 				"type": "Roche / Eau",
-				"life": "none",
-				"attack": "148"
+				"life": "60",
+				"attack": "148",
+				"defense": "142",
+				"vitesse": "23"
 			}
 			{
 				"id": "#141",
 				"img": "141.png",
 				"name-fr": "Kabutops",
 				"type": "Roche / Eau",
-				"life": "none",
-				"attack": "190"
+				"life": "120",
+				"attack": "190",
+				"defense": "190",
+				"vitesse": "4"
 			}
 			{
 				"id": "#142",
 				"img": "142.png",
 				"name-fr": "Ptera",
 				"type": "Roche / Vol",
-				"life": "none",
-				"attack": "182"
+				"life": "160",
+				"attack": "182",
+				"defense": "162",
+				"vitesse": "14"
 			}
 			{
 				"id": "#143",
 				"img": "143.png",
 				"name-fr": "Ronflex",
 				"type": "Normal",
-				"life": "none",
-				"attack": "180"
+				"life": "320",
+				"attack": "180",
+				"defense": "180",
+				"vitesse": "8"
 			}
 			{
 				"id": "#144",
 				"img": "144.png",
 				"name-fr": "Artikodin",
 				"type": "Glace / Vol",
-				"life": "none",
-				"attack": "198"
+				"life": "180",
+				"attack": "198",
+				"defense": "242",
+				"vitesse": "8"
 			}
 			{
 				"id": "#145",
 				"img": "145.png",
 				"name-fr": "Electhor",
 				"type": "Electrik / Vol",
-				"life": "none",
-				"attack": "232"
+				"life": "180",
+				"attack": "232",
+				"defense": "194",
+				"vitesse": "8"
 			}
 			{
 				"id": "#146",
 				"img": "146.png",
 				"name-fr": "Sulfura",
 				"type": "Feu / Vol",
-				"life": "none",
-				"attack": "242"
+				"life": "180",
+				"attack": "242",
+				"defense": "194",
+				"vitesse": "8"
 			}
 			{
 				"id": "#147",
 				"img": "147.png",
 				"name-fr": "Minidraco",
 				"type": "Dragon",
-				"life": "none",
-				"attack": "128"
+				"life": "82",
+				"attack": "128",
+				"defense": "110",
+				"vitesse": "29"
 			}
 			{
 				"id": "#148",
 				"img": "148.png",
 				"name-fr": "Draco",
 				"type": "Dragon",
-				"life": "none",
-				"attack": "170"
+				"life": "122",
+				"attack": "170",
+				"defense": "152",
+				"vitesse": "23"
 			}
 			{
 				"id": "#149",
 				"img": "149.png",
 				"name-fr": "Dracolosse",
 				"type": "Dragon / Vol",
-				"life": "none",
-				"attack": "250"
+				"life": "182",
+				"attack": "250",
+				"defense": "212",
+				"vitesse": "8"
 			}
 			{
 				"id": "#150",
 				"img": "150.png",
 				"name-fr": "Mewtwo",
 				"type": "Psy",
-				"life": "none",
-				"attack": "284"
+				"life": "212",
+				"attack": "284",
+				"defense": "202",
+				"vitesse": "3"
 			}
 			{
 				"id": "#151",
 				"img": "151.png",
 				"name-fr": "Mew",
 				"type": "Psy",
-				"life": "none",
-				"attack": "220"
+				"life": "200",
+				"attack": "220",
+				"defense": "220",
+				"vitesse": "8"
 			}
 		]
 	}

@@ -9,7 +9,9 @@ public class ScrollCellTest : MonoBehaviour
 
     public Text cellLabel;
 	public Text typeLabel;
-	public Text attackLabel;
+    public Text lifeLabel;
+    public Text attackLabel;
+	public Text defenseLabel;
 
     private JSONNode m_PokemonInfos;
 	private PanelManager m_PanelManager;
@@ -24,6 +26,8 @@ public class ScrollCellTest : MonoBehaviour
         cellLabel.text = m_PokemonInfos["name-fr"];
         typeLabel.text = m_PokemonInfos["type"];
         attackLabel.text = m_PokemonInfos["attack"];
+        lifeLabel.text = m_PokemonInfos["life"];
+        defenseLabel.text = m_PokemonInfos["defense"];
     }
 
 	public void OnButtonClick()
