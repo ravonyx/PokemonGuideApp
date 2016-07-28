@@ -24,6 +24,7 @@ public class PokemonScrollList : MonoBehaviour
     public VerticalLayoutGroup grid;
     [SerializeField]
     private GameObject cellPrefab;
+    private bool sortAsc;
 
     public void Launch()
 	{
@@ -32,6 +33,7 @@ public class PokemonScrollList : MonoBehaviour
         Initialized = false;
         if (Loader != null)
             Loader.Load();
+        sortAsc = true;
     }
 	
 	void Update ()
@@ -42,7 +44,6 @@ public class PokemonScrollList : MonoBehaviour
             ClearList();
 
             GameObject cell;
-            Debug.Log(nbCells);
             for (int i = 0; i < nbCells; i++)
             {
                 if(nameSearch != "")
@@ -84,6 +85,13 @@ public class PokemonScrollList : MonoBehaviour
 
 	#region implemented abstract members of UIList
 
+    public void Sort()
+    {
+        sortAsc = !sortAsc;
+        Quicksort(Loader.PokemonList, 0, Loader.PokemonList.Count - 1, "attack", sortAsc);
+        Initialized = false;
+    }
+
 	public int NumberOfCells()
 	{
 		if (Loader.PokemonList == null)
@@ -97,6 +105,66 @@ public class PokemonScrollList : MonoBehaviour
         Debug.Log(nameSearch);
         Initialized = false;
     }
+
+    private void Quicksort(SimpleJSON.JSONNode elements, int low, int high, string typeSort, bool asc)
+    {
+        int pivot_loc = 0;
+        if (low < high)
+        {
+            pivot_loc = Partition(elements, low, high, typeSort, asc);
+            Quicksort(elements, low, pivot_loc - 1, typeSort, asc);
+            Quicksort(elements, pivot_loc + 1, high, typeSort, asc);
+        }
+    }
+
+    private int Partition(SimpleJSON.JSONNode elements, int low, int high, string typeSort, bool asc)
+    {
+        int pivot = Int32.Parse(elements[high][typeSort]);
+
+        while (low < high)
+        {
+            if(asc)
+            {
+                while (Int32.Parse(elements[low][typeSort]) < pivot)
+                {
+                    low++;
+                }
+                while (Int32.Parse(elements[high][typeSort]) > pivot)
+                {
+                    high--;
+                }
+            }
+            else
+            {
+                while (Int32.Parse(elements[low][typeSort]) > pivot)
+                {
+                    low++;
+                }
+                while (Int32.Parse(elements[high][typeSort]) < pivot)
+                {
+                    high--;
+                }
+            }
+
+            if (Int32.Parse(elements[low][typeSort]) == Int32.Parse(elements[high][typeSort]))
+            {
+                low++;
+            }
+            else if (low < high)
+            {
+                swap(elements, low, high);
+            }
+        }
+        return high;
+    }
+    
+    private void swap(SimpleJSON.JSONNode elements, int a, int b)
+    {
+        SimpleJSON.JSONNode temp = elements[a];
+        elements[a] = elements[b];
+        elements[b] = temp;
+    }
+
 
     #endregion
 }
