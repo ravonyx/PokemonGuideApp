@@ -55,6 +55,7 @@ public class PokemonScrollList : MonoBehaviour
                         cell = GameObject.Instantiate(cellPrefab) as GameObject;
                         cell.name = cell.name.Replace("(Clone)", "");
                         cell.transform.SetParent(grid.transform);
+                        cell.transform.localScale = Vector3.one;
                         cell.GetComponent<ScrollCellTest>().Init(Loader.PokemonList[i], m_PanelManager);
                     }
                 }
@@ -63,6 +64,7 @@ public class PokemonScrollList : MonoBehaviour
                     cell = GameObject.Instantiate(cellPrefab) as GameObject;
                     cell.name = cell.name.Replace("(Clone)", "");
                     cell.transform.SetParent(grid.transform);
+                    cell.transform.localScale = Vector3.one;
                     cell.GetComponent<ScrollCellTest>().Init(Loader.PokemonList[i], m_PanelManager);
                 }
             }
